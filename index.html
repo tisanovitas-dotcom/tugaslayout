@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Website Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #AED6F1; /* Biru Muda */
+        }
 
+        header {
+            background-color: #E74C3C; /* Merah */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            height: calc(100vh - 60px); /* Tinggi container */
+        }
+
+        .sidebar {
+            background-color: #FFDA61; /* Kuning */
+            width: 25%;
+            padding: 20px;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+            width: 75%;
+        }
+
+        .box {
+            background-color: #58D68D; /* Hijau */
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>INI Adalah Halaman Website Saya</h1>
+    </header>
+
+    <div class="container">
+        <div class="sidebar">
+            <!-- Isi Sidebar -->
+        </div>
+
+        <div class="content">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+</body>
+</html>
